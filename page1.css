@@ -9,11 +9,24 @@ div.menu{
     z-index: 9999;
 }
 
+body{
+	background: url(pattern.png)
+}
+
 div.fact{
 	position: relative;
 	width: 800px;
 	height: 65px;
-	top: 670px;
+	top: 650px;
+	background-color: #61E7E7;
+	border:5px solid #61E7E7;
+	margin: 0 auto;
+}
+
+div.fact2{
+	position: relative;
+	width: 800px;
+	height: 65px;
 	background-color: #61E7E7;
 	border:5px solid #61E7E7;
 	margin: 0 auto;
@@ -30,7 +43,6 @@ div.cont{
   position: relative; 
   margin: 0 auto;
   max-width: 1200px; 
-
 }
 
 h4{
@@ -38,6 +50,8 @@ h4{
 	bottom:50px;
 	left:75px;
 	color:white;
+	font-family: sans-serif;
+	font-size:14px;
 }
 
 
@@ -46,7 +60,7 @@ img.lypa2{
 	height:50px;
 	float:right;
 	position:relative;
-	bottom:110px
+	bottom:100px
 }
 
 h1{
@@ -67,7 +81,7 @@ a.menu2{
 
 a.m3{
 	position:relative;
-	left:130px;
+	left:143px;
 	top:20px;
 	font-family: sans-serif
 }
@@ -92,7 +106,17 @@ div.base{
 	background-color: #61E7E7;
 	border:5px solid #61E7E7;
 	position: relative;
-    top: 470px;
+    top:395px;
+    margin: 0 auto;
+    z-index: 9999;
+}
+
+div.base2{
+	width: 800px;
+	height: 60px;
+	background-color: #61E7E7;
+	border:5px solid #61E7E7;
+	position: relative;
     margin: 0 auto;
     z-index: 9999;
 }
@@ -102,15 +126,34 @@ img.mail, .vk{
 	height:50px;
 }
 
+img.ka{
+	width:700px;
+	height:350px;
+	position:relative;
+	left:50px
+}
+
+div.info1{
+	width: 800px;
+	height: 450px;
+	background-color: #D3FAFD;
+	position: relative;
+    margin: 0 auto;
+	margin-top:40px;
+	margin-bottom:40px;
+    z-index: 9999;
+}
+
 * {
   box-sizing: border-box;
 }
 
 .container {
-  position: relative;
   width:800px;
+  position:relative;
   height:300px;
-  left:200px;
+  margin: 0 auto;
+  top: -100px;
 }
 
 .mySlides {
